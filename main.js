@@ -17,6 +17,9 @@ document.getElementById('btnTimSo').onclick = function () {
         //   b4 :  thay đổi điều kiện lặp 
         N++;
     }
+    if (Tong >10000){
+        N = N-1;
+    }
     // in out put ra giao diện 
     document.getElementById('ketQua_b1').innerHTML ="Số nguyên dương nhỏ nhất là: " + N;
 }
